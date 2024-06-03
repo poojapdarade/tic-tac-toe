@@ -39,15 +39,25 @@ h6 {
 }
 
 code {
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 ul {
   padding-inline-start: 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
 .square {
-  background: black;
+  background: #fff;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
